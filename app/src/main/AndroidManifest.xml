@@ -28,15 +28,6 @@
                 <action android:name="android.service.quicksettings.action.QS_TILE" />
             </intent-filter>
         </service>
-        <service
-            android:name=".ScreenglerBoostTileService"
-            android:icon="@drawable/ic_stat_time_boost_none"
-            android:label="@string/app_name"
-            android:permission="android.permission.BIND_QUICK_SETTINGS_TILE">
-            <intent-filter>
-                <action android:name="android.service.quicksettings.action.QS_TILE" />
-            </intent-filter>
-        </service>
     </application>
 
     <uses-permission android:name="android.permission.WRITE_SETTINGS"
